@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DHTUpgradeAdvisor", "DHTUpgradeAdvisor", "{4AD1F4C4-417B-4BC9-A530-BB909E2980F8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DHTUpgradeAdvisor.Shared", "DHTUpgradeAdvisor.Shared\DHTUpgradeAdvisor.Shared.shproj", "{26026CBE-BD15-46A6-8725-B7AA7B571FA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DHTUpgradeAdvisor.WindowsPhone", "DHTUpgradeAdvisor.WindowsPhone\DHTUpgradeAdvisor.WindowsPhone.csproj", "{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DHTUpgradeAdvisor.Shared\DHTUpgradeAdvisor.Shared.projitems*{26026cbe-bd15-46a6-8725-b7aa7b571fa8}*SharedItemsImports = 13
+		DHTUpgradeAdvisor.Shared\DHTUpgradeAdvisor.Shared.projitems*{ecda4f1a-853b-4505-9741-6b56ec0a3cfa}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Debug|ARM.Build.0 = Debug|ARM
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Debug|ARM.Deploy.0 = Debug|ARM
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Debug|x64.Build.0 = Debug|Any CPU
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Debug|x86.ActiveCfg = Debug|x86
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Debug|x86.Build.0 = Debug|x86
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Debug|x86.Deploy.0 = Debug|x86
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Release|ARM.ActiveCfg = Release|ARM
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Release|ARM.Build.0 = Release|ARM
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Release|ARM.Deploy.0 = Release|ARM
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Release|x64.ActiveCfg = Release|Any CPU
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Release|x64.Build.0 = Release|Any CPU
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Release|x64.Deploy.0 = Release|Any CPU
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Release|x86.ActiveCfg = Release|x86
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Release|x86.Build.0 = Release|x86
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26026CBE-BD15-46A6-8725-B7AA7B571FA8} = {4AD1F4C4-417B-4BC9-A530-BB909E2980F8}
+		{ECDA4F1A-853B-4505-9741-6B56EC0A3CFA} = {4AD1F4C4-417B-4BC9-A530-BB909E2980F8}
+	EndGlobalSection
+EndGlobal
